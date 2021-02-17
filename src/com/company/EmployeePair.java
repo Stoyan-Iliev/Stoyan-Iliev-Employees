@@ -3,6 +3,7 @@ package com.company;
 import java.util.Objects;
 
 public class EmployeePair {
+
     private final long firstEmployeeId;
     private final long secondEmployeeId;
 

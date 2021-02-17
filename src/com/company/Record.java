@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
 
 public class Record {
+
     private final long employeeId;
     private final long projectId;
     private final LocalDate dateFrom;
@@ -39,16 +40,16 @@ public class Record {
     public static Record parseRecord(String[] line) {
         long employeeId = Long.parseLong(line[0]);
         long projectId = Long.parseLong(line[1]);
-        try{
+        try {
             LocalDate dateFrom = LocalDate.parse(line[2]);
 
-            if(line[3].equalsIgnoreCase("NULL")){
+            if (line[3].equalsIgnoreCase("NULL")) {
                 return new Record(employeeId, projectId, dateFrom);
             } else {
                 LocalDate dateTo = LocalDate.parse(line[3]);
                 return new Record(employeeId, projectId, dateFrom, dateTo);
             }
-        } catch (DateTimeParseException e){
+        } catch (DateTimeParseException e) {
             System.out.println(e.getMessage());
 
         }

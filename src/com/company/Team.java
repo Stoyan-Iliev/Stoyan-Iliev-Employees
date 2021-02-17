@@ -3,6 +3,7 @@ package com.company;
 import java.util.Objects;
 
 public class Team {
+
     private final EmployeePair pair;
     private final long daysWorkingTogether;
 
@@ -22,7 +23,7 @@ public class Team {
     @Override
     public String toString() {
         return "Employees with id " +
-                 + pair.getFirstEmployeeId() +
+                pair.getFirstEmployeeId() +
                 " and " + pair.getSecondEmployeeId() +
                 " has worked together for a total of " + daysWorkingTogether +
                 " days.";
