@@ -16,6 +16,7 @@ public class TeamService {
         Map<EmployeePair, Team> teams = new HashMap<>();
         for (int i = 0; i < records.size() - 1; i++) {
             Record firstEmployee = records.get(i);
+
             for (int j = i + 1; j < records.size(); j++) {
                 Record secondEmployee = records.get(j);
 
@@ -28,8 +29,11 @@ public class TeamService {
         return teams;
     }
 
-    private static Team getTeamWithUpdatedOverlap(Map<EmployeePair, Team> teams, Record firstEmployee, Record secondEmployee) {
+    private static Team getTeamWithUpdatedOverlap(Map<EmployeePair, Team> teams,
+                                                  Record firstEmployee, Record secondEmployee) {
+
         EmployeePair pair = new EmployeePair(firstEmployee.getEmployeeId(), secondEmployee.getEmployeeId());
+
         long overlapDays = calculateOverlapForOneProjectOnly(firstEmployee, secondEmployee);
         if (teams.containsKey(pair)) {
             overlapDays += teams.get(pair).getDaysWorkingTogether();

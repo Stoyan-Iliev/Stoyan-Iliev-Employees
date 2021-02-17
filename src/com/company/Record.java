@@ -40,6 +40,7 @@ public class Record {
     public static Record parseRecord(String[] line) {
         long employeeId = Long.parseLong(line[0]);
         long projectId = Long.parseLong(line[1]);
+
         try {
             LocalDate dateFrom = LocalDate.parse(line[2]);
 
