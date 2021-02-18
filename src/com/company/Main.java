@@ -14,8 +14,11 @@ public class Main {
         if (!teams.isEmpty()) {
             Team teamWorkingLongestTogether = TeamService.getTheTeamWhoHasWorkedTogetherTheLongest(teams);
 
-            System.out.println("The people who has worked together the longest are:");
-            System.out.println(teamWorkingLongestTogether);
+            System.out.println("The employees with id " +
+                    teamWorkingLongestTogether.getPair().getFirstEmployeeId() + " and " +
+                    teamWorkingLongestTogether.getPair().getSecondEmployeeId() +
+                    " has worked together the longest for a total of " +
+                    teamWorkingLongestTogether.getDaysWorkingTogether() + " days.");
         } else {
             System.out.println("There are no pair of employees working together on the same projects at the same time.");
         }
