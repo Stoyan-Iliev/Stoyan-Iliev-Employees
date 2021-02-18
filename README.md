@@ -28,15 +28,16 @@ EmpID, ProjectID, DateFrom, DateTo
 5) Програмата да може да тръгне и да покаже резултата в конзола.
 6) Да бъде спазен “code convention”, в зависимост на какъв език се разбработва
 програмата:
-a. Java - (http://www.oracle.com/technetwork/java/codeconvtoc-136057.html )
 
-b. C# - (https://docs.microsoft.com/en-us/dotnet/csharp/programming-
+  a. Java - (http://www.oracle.com/technetwork/java/codeconvtoc-136057.html )
+
+  b. C# - (https://docs.microsoft.com/en-us/dotnet/csharp/programming-
 guide/inside-a-program/coding-conventions )
 
-c. Други виж тук (https://en.wikipedia.org/wiki/Coding_conventions )
+  c. Други виж тук (https://en.wikipedia.org/wiki/Coding_conventions )
 7) Решение на задачата да бъде сложено в github
 
-a. Repository Name да бъде „FirstName-LastName-employees (т.е. ivan-ivanov-
+  a. Repository Name да бъде „FirstName-LastName-employees (т.е. ivan-ivanov-
 employess)
 
 8) Да бъде направена в рамките на един ден.
