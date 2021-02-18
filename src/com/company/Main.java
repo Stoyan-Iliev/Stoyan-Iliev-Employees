@@ -13,6 +13,7 @@ public class Main {
 
         if (!teams.isEmpty()) {
             Team teamWorkingLongestTogether = TeamService.getTheTeamWhoHasWorkedTogetherTheLongest(teams);
+
             System.out.println("The people who has worked together the longest are:");
             System.out.println(teamWorkingLongestTogether);
         } else {
@@ -21,7 +22,7 @@ public class Main {
     }
 
     private static String getFilePath() {
-        System.out.println("Please enter the location of the file in this format D:\\folderName\\fileName.txt");
+        System.out.println("Please enter the location of the file in this format - D:\\folderName\\fileName.txt");
         Scanner scanner = new Scanner(System.in);
         return scanner.nextLine();
     }
