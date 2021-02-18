@@ -21,15 +21,6 @@ public class Team {
     }
 
     @Override
-    public String toString() {
-        return "Employees with id " +
-                pair.getFirstEmployeeId() +
-                " and " + pair.getSecondEmployeeId() +
-                " has worked together for a total of " + daysWorkingTogether +
-                " days.";
-    }
-
-    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
