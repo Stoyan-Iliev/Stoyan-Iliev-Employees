@@ -29,12 +29,12 @@ EmpID, ProjectID, DateFrom, DateTo
 6) Да бъде спазен “code convention”, в зависимост на какъв език се разбработва
 програмата:
 
-  a. Java - (http://www.oracle.com/technetwork/java/codeconvtoc-136057.html )
+    a. Java - (http://www.oracle.com/technetwork/java/codeconvtoc-136057.html )
 
-  b. C# - (https://docs.microsoft.com/en-us/dotnet/csharp/programming-
-guide/inside-a-program/coding-conventions )
+    b. C# - (https://docs.microsoft.com/en-us/dotnet/csharp/programming-
+    guide/inside-a-program/coding-conventions )
 
-  c. Други виж тук (https://en.wikipedia.org/wiki/Coding_conventions )
+    c. Други виж тук (https://en.wikipedia.org/wiki/Coding_conventions )
 7) Решение на задачата да бъде сложено в github
 
   a. Repository Name да бъде „FirstName-LastName-employees (т.е. ivan-ivanov-
