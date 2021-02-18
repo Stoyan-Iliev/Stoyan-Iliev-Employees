@@ -37,7 +37,7 @@ EmpID, ProjectID, DateFrom, DateTo
     c. Други виж тук (https://en.wikipedia.org/wiki/Coding_conventions )
 7) Решение на задачата да бъде сложено в github
 
-  a. Repository Name да бъде „FirstName-LastName-employees (т.е. ivan-ivanov-
-employess)
+    a. Repository Name да бъде „FirstName-LastName-employees (т.е. ivan-ivanov-
+        employess)
 
 8) Да бъде направена в рамките на един ден.
